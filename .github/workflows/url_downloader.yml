@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       download_url:
-        description: 'آدرس فایل برای دانلود'
+        description: 'https://github.com/KaringX/karing/releases/download/v1.2.18.2102/karing_1.2.18.2102_windows_x64.exe'
         required: true
         type: string
       output_folder:
